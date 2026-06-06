@@ -37,7 +37,7 @@ novel-project/
 Load: bible + style guide + current chapter outline + state table + foreshadowing index + last 3 chapters + open issues constraints.
 
 Output:
-1. Chapter text (under 6500 Chinese characters or equivalent)
+1. Chapter text (4000-6500 Chinese characters — see Scene Depth below)
 2. Writing log (YAML, creative decisions only, NOT fact extraction)
 
 Writing log format:
@@ -98,6 +98,42 @@ Instead use:
 - **Objects**: water flask, debt chip, memory shard, wrench, old photo
 - **Environment**: alarm lights, wind, leaking pipes, generator hum
 - **Choice**: who gets the last medicine, what to repair first
+
+## Scene Depth (Critical — Prevents Skeleton Writing)
+
+Chapters below 4000 Chinese characters are **skeleton-only** — they have plot summary but no scene flesh. This is the #1 cause of word count decline in long novels.
+
+### Minimum Requirements Per Chapter
+
+| Element | Minimum | Why |
+|---------|---------|-----|
+| Complete scenes | 2+ | Each scene needs space/time/character/conflict |
+| Dialogue beats | Every 2-3 lines | Insert action/expression/environment between dialogue |
+| Internal monologue | 2+ passages | Character thinking, weighing, remembering |
+| Sensory details | 2+ per scene | Sound, touch, sight, smell — serve the scene |
+| Environment | 1+ thematic description | Related to chapter mood/conflict, not copy-paste |
+
+### Dialogue Beat Example
+
+```
+"Can the cooling tank work?" Lin Yan asked.          # dialogue
+He crouched, checking the seal ring. Cracked.         # action + object
+"Usable." Chen Ye said, "But the ring needs replacing." # dialogue
+Lin Yan ran his finger over the crack. Not deep, but hardened. # action + sensory
+"How long to replace?"                                # dialogue
+"Depends on stock." Chen Ye walked to the toolbox, rummaged.  # action
+"None left." he said. The box was empty.              # dialogue + object
+```
+
+### Self-Check Before Output
+
+- [ ] Word count: 4000-6500? Below 4000 = expand.
+- [ ] Scenes: 2+ complete scenes?
+- [ ] Dialogue: no 5+ consecutive pure Q&A lines?
+- [ ] Internal monologue: 2+ passages with specific thoughts?
+- [ ] Sensory: 2+ per scene?
+- [ ] Environment: 1+ thematic, different from last 3 chapters?
+- [ ] Ending: not "log + food + summary" template?
 
 ## Ending Diversity (Critical)
 
@@ -187,9 +223,14 @@ Stop and ask before:
 Before marking a chapter complete:
 - [ ] Advances at least one of: plot, character, world
 - [ ] Has clear conflict and information increment
+- [ ] **Word count 4000-6500 Chinese characters** (below 4000 = skeleton, must expand)
+- [ ] **2+ complete scenes** with space/time/character/conflict
+- [ ] **Dialogue has beats** — no 5+ consecutive pure Q&A lines
+- [ ] **2+ internal monologue passages** with specific thoughts
+- [ ] **2+ sensory details per scene** (sound/touch/sight/smell)
+- [ ] **1+ thematic environment description** (different from last 3 chapters)
 - [ ] Ending differs from last 2 chapters in structure
 - [ ] No body reaction repeated from last 5 chapters
 - [ ] Food info is scene-based, not inventory
 - [ ] Same fact not in all 3 of dialogue/thought/log
-- [ ] Under 6500 characters
 - [ ] Writing log has creative decisions, not fact extraction

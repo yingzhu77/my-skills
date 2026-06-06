@@ -2,6 +2,28 @@
 
 Use this checklist for every 10-chapter review and end-of-volume revision.
 
+## Word Count & Scene Depth (Every Chapter)
+
+### Word Count
+
+| Chapter | Chinese Chars | Status |
+|---------|--------------|--------|
+| chXXX   |              | >=4000 pass / <4000 expand |
+
+**Standard**: Below 4000 Chinese characters = must expand. Target 5000.
+
+### Scene Depth
+
+| Check | Requirement | Actual | Status |
+|-------|-------------|--------|--------|
+| Scenes | >=2 | | |
+| Dialogue beats | No 5+ pure Q&A | | |
+| Internal monologue | >=2 passages | | |
+| Sensory details | >=2 per scene | | |
+| Environment | >=1 thematic | | |
+
+**Standard**: Any item failing = mark as "needs expansion."
+
 ## Ending Check (Every Chapter)
 
 - [ ] Ending structure differs from last 2 chapters?
