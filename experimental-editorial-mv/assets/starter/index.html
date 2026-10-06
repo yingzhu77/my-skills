@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>余像 / Afterimage — 实验编辑 MV</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><span>映像実験 / 001</span><span>AFTERIMAGE · 余像</span></header>
+  <main>
+    <canvas id="view" width="1280" height="720" aria-label="实验编辑音乐视频"></canvas>
+    <p id="status" role="status">正在准备图像与画面…</p>
+    <div class="controls">
+      <button id="play" disabled>播放</button>
+      <label class="seek">时间 <input id="seek" type="range" min="0" max="20" step="0.01" value="0" disabled></label>
+      <output id="time">00.00 / 20.00</output>
+      <button id="quality" disabled>720p</button>
+      <button id="record" disabled>录制</button>
+      <label class="file">换音乐<input id="audio-file" type="file" accept="audio/*" disabled></label>
+    </div>
+    <p class="note">Space 播放 / 暂停 · Q 画质 · R 从头录制<br>20 秒合成节奏与演示照片，可替换为你的音乐和素材。</p>
+  </main>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

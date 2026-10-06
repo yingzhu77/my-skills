@@ -1,0 +1,11 @@
+{
+  "title": "余像 / AFTERIMAGE",
+  "bpm": 96,
+  "duration": 20,
+  "timeline": [
+    {"mode": "paper", "start": 0, "end": 5},
+    {"mode": "window", "start": 5, "end": 10},
+    {"mode": "printed-space", "start": 10, "end": 15},
+    {"mode": "page-in-space", "start": 15, "end": 20}
+  ]
+}

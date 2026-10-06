@@ -1,0 +1,4 @@
+interface:
+  display_name: "实验编辑 MV"
+  short_description: "按音乐编排主体动作、实验排版与意识流转场，支持纯 2D 和混合 MV"
+  default_prompt: "使用 $experimental-editorial-mv 为我的音乐设计完整主体动作与转场，先验证短样片，再实现实验编辑风格 MV。"

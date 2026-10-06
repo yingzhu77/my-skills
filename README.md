@@ -1,6 +1,6 @@
 # My Claude Code Skills
 
-个人开发的 [Claude Code](https://claude.ai/code) Skills 集合。
+个人开发的 [Claude Code](https://claude.ai/code) Skills 集合。MV skill 同时提供 Codex 的发现元数据。仓库只保存 skill 文档、脚本和代码示例；制作项目、音频、图片素材、字体与导出成片不入库。
 
 ## Skills
 
@@ -59,3 +59,15 @@ rm -rf /tmp/my-skills
 ---
 
 > 背景：基于 180 章、6 卷、约 114 万字符的科幻废土经营流网文实战经验提炼。[写作复盘文章](https://yingzhu77.me/posts/ai-novel-journey/)
+
+
+### experimental-editorial-mv
+
+日式实验编辑 MV 的编排与实现 skill，支持纯 2D 图形、摄影与 WebGL2 混合表现。由 [he-drowns-mv-v2](https://github.com/longruizhi2-beep/he-drowns-mv-v2) 的固定提交提炼，并区分原作机制与新增 2D 示例。
+
+- 7 种主体动作配方、音乐事件与动作编排、场景交接合同、动态审美检查。
+- WebGL2/印刷核心代码，以及可运行的中性 2D 动作示例。
+- 演示图和合成节奏由代码生成；不含歌曲、歌词、照片、字体或制作素材。
+- 原 MIT 核心代码保留来源和许可。新曲的意象、色彩、节奏及素材需重新设计。
+
+入口：[SKILL.md](experimental-editorial-mv/SKILL.md)。复制整个 skill 文件夹到工具的 skills 目录即可使用，模板运行方式见 [starter.md](experimental-editorial-mv/references/starter.md)。

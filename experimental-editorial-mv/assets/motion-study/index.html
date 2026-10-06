@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>缝 / 纯 2D 动作研究</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header><p class="eyebrow">MOTION STUDY · 018 SECONDS</p><h1>条带 → 缝 → 墨形</h1><p>基于原例动作原则的新 2D 示例。无歌曲、歌词、摄影或外部依赖。</p></header>
+    <div class="screen"><canvas id="canvas" width="1920" height="1080" aria-label="七条印刷带压成一条缝，缝张开，内部墨形发展并重新收束"></canvas></div>
+    <div class="controls">
+      <button id="play" type="button">播放</button><button id="restart" type="button" aria-label="回到开始">重播</button>
+      <input id="seek" type="range" min="0" max="18" step="0.01" value="0" aria-label="动画时间">
+      <output id="time">00.00 / 18.00</output><span class="speed">正常速度 ×1</span>
+    </div>
+    <div class="caption"><span id="phase">印刷带 / 建立主体</span><span>Space 播放或暂停 · ← / → 微调 0.1 秒</span></div>
+    <details><summary>这个示例检验什么</summary><p>两个动作分别占 8 秒与 10 秒，先建立、积聚、收压，再张开、发展和回收。8 秒处前后共用完全相同的缝形几何；路径同时用于主体、遮罩与描边。全图随时间重算，不依赖前帧反馈。</p><p>这是一段新的程序图形示例，继承原例按阶段编排与同轮廓变换角色的原则；它不声称原项目已经实现这段形变。代码与来源见 <a href="SOURCE.md">SOURCE.md</a>。</p></details>
+  </main>
+  <script type="module" src="js/player.js"></script>
+</body>
+</html>
