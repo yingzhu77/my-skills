@@ -1,0 +1,4 @@
+interface:
+  display_name: "歌曲视觉与素材库"
+  short_description: "从歌曲情绪与声音质感确定美术方向，设计、生成、搜索和筛选可用于动画的素材库"
+  default_prompt: "使用 $song-visual-library 分析这首歌的视觉方向，并整理统一且可用于动画的素材库。"

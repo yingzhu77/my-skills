@@ -71,3 +71,14 @@ rm -rf /tmp/my-skills
 - 原 MIT 核心代码保留来源和许可。新曲的意象、色彩、节奏及素材需重新设计。
 
 入口：[SKILL.md](experimental-editorial-mv/SKILL.md)。复制整个 skill 文件夹到工具的 skills 目录即可使用，模板运行方式见 [starter.md](experimental-editorial-mv/references/starter.md)。
+
+### song-visual-library
+
+从歌曲与歌词制定美术方向，设计、生成、搜索或绘制连贯且能用于动画的素材库。适用于素材单调、动漫与写实路线选择、同意象变体、图层拆分和素材替换。
+
+- 区分音乐证据、歌词解读与导演选择，避免套用“夜景＋忧伤”的通用图像。
+- 建立人物、轮廓、色彩、构图、材质与空间的共同语法，用受控变化扩充素材。
+- 为生成与搜索明确用途、比例、留白、透明度和来源；精确遮罩及图形优先绘制。
+- 记录素材筛选理由与动作接口，可与 `experimental-editorial-mv` 接续，也能独立交付美术简报和提示词。
+
+入口：[SKILL.md](song-visual-library/SKILL.md)。复制整个文件夹到 Codex 的 skills 目录后，可用 `$song-visual-library` 调用。仓库只包含通用方法，具体歌曲简报和媒体保存在制作目录。
